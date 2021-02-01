@@ -296,4 +296,25 @@ main {
   grid-area: pro;
   grid-row: 1 / 2;
   grid-column: 3 / 4;
+  background-color: #f9fafb;
+  padding: 0px 100px;
+  display: grid;
+  grid-template-rows: 30% 15% 55%;
+
+  .pic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 110px;
+      border-radius: 50%;
+    }
+
+    img,
+    p {
+      margin: 5px 0px;
+    }
+  }
 }
