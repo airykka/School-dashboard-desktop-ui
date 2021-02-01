@@ -445,4 +445,28 @@ main {
 .profile .pic p {
   margin: 5px 0px;
 }
+
+.profile .adbox {
+  -ms-flex-item-align: center;
+      align-self: center;
+  border: var(--border);
+  border-radius: var(--borderRadius);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 30px;
+}
+
+.profile .adbox i {
+  border-radius: var(--borderRadius);
+  padding: 12px 15px;
+  -webkit-box-shadow: 1px 1px 2px lightgrey;
+          box-shadow: 1px 1px 2px lightgrey;
+  color: var(--orange);
+}
 /*# sourceMappingURL=styles.css.map */
