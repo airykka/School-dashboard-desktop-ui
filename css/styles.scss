@@ -342,4 +342,58 @@ main {
       color: var(--orange);
     }
   }
+
+  .course-progress {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    .progress-box {
+      height: 100px;
+      width: 100%;
+      border: var(--border);
+      border-radius: var(--borderRadius);
+      display: grid;
+      grid-template-columns: 1fr 1fr 2fr;
+      align-items: center;
+      justify-items: center;
+      padding: 20px;
+
+      .percentage {
+        font-weight: 600;
+        font-size: 1.4em;
+      }
+
+      i {
+        color: white;
+        padding: 20px 18px;
+        border-radius: var(--borderRadius);
+      }
+    }
+
+    .grammar-progress {
+      .percentage {
+        color: var(--purple);
+      }
+      i {
+        background-color: var(--purple);
+      }
+    }
+    .dictionary-progress {
+      .percentage {
+        color: var(--orange);
+      }
+      i {
+        background-color: var(--orange);
+      }
+    }
+    .reading-progress {
+      .percentage {
+        color: var(--red);
+      }
+      i {
+        background-color: var(--red);
+      }
+    }
+  }
 }
