@@ -36,6 +36,7 @@ main {
 .title {
   font-weight: 600;
   color: #222222;
+  font-size: 1.6rem;
 }
 
 .subtitle {
@@ -207,6 +208,7 @@ main {
 
 .dashboard .top .exam .users a {
   color: white;
+  font-size: 1.6rem;
 }
 
 .dashboard .top .todo {
@@ -230,10 +232,12 @@ main {
 
 .dashboard .top .todo .todo-title {
   font-weight: 500;
+  font-size: 1.6rem;
 }
 
 .dashboard .top .todo .todo-subtitle {
   font-weight: 300;
+  font-size: 1.6rem;
 }
 
 .dashboard .top .homework {
